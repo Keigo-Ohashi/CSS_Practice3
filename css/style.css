@@ -1,0 +1,49 @@
+.cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.breakfast {
+    display: block;
+    width: 30%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+.breakfast__img {
+    width: 100%;
+}
+
+.breakfast__description {
+    padding: 15px 30px;
+    font-size: 14px;
+}
+
+.breakfast-description__category {
+    display: inline-block;
+    color: white;
+    background-color: #008888;
+    padding: 10px;
+}
+
+.breakfast-description__content {
+    font-size: 18px;
+    margin: 20px 0px 30px 0px;
+    line-height: 150%;
+}
+
+.breakfast-description__footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.breakfast-description-footer__tag {
+    color: #008888;
+}
+
+.breakfast-description-footer__date {
+    color: #888;
+}
